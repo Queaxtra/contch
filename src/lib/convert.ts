@@ -141,3 +141,81 @@ export function nearToTry() {
         .then(response => response.json())
         .then(data => data.price);
 }
+
+export function gbpToTry() {
+    return fetch('https://api.frankfurter.app/latest?from=GBP&to=TRY')
+        .then(response => response.json())
+        .then(data => data.rates.TRY);
+}
+
+export function chfToTry() {
+    return fetch('https://api.frankfurter.app/latest?from=CHF&to=TRY')
+        .then(response => response.json())
+        .then(data => data.rates.TRY);
+}
+
+export function jpyToTry() {
+    return fetch('https://api.frankfurter.app/latest?from=JPY&to=TRY')
+        .then(response => response.json())
+        .then(data => data.rates.TRY);
+}
+
+export function cadToTry() {
+    return fetch('https://api.frankfurter.app/latest?from=CAD&to=TRY')
+        .then(response => response.json())
+        .then(data => data.rates.TRY);
+}
+
+export function audToTry() {
+    return fetch('https://api.frankfurter.app/latest?from=AUD&to=TRY')
+        .then(response => response.json())
+        .then(data => data.rates.TRY);
+}
+
+export function pepeToTry() {
+    return fetch('https://api.binance.com/api/v3/ticker/price?symbol=PEPETRY')
+        .then(response => response.json())
+        .then(data => data.price);
+}
+
+export function aptToTry() {
+    return fetch('https://api.binance.com/api/v3/ticker/price?symbol=APTTRY')
+        .then(response => response.json())
+        .then(data => data.price);
+}
+
+export function opToTry() {
+    return fetch('https://api.binance.com/api/v3/ticker/price?symbol=OPTRY')
+        .then(response => response.json())
+        .then(data => data.price);
+}
+
+export function arbToTry() {
+    return fetch('https://api.binance.com/api/v3/ticker/price?symbol=ARBTRY')
+        .then(response => response.json())
+        .then(data => data.price);
+}
+
+export function injToTry() {
+    return fetch('https://api.binance.com/api/v3/ticker/price?symbol=INJTRY')
+        .then(response => response.json())
+        .then(data => data.price);
+}
+
+export function suiToTry() {
+    return fetch('https://api.binance.com/api/v3/ticker/price?symbol=SUITRY')
+        .then(response => response.json())
+        .then(data => data.price);
+}
+
+export function stxToTry() {
+    return fetch('https://api.binance.com/api/v3/ticker/price?symbol=STXTRY')
+        .then(response => response.json())
+        .then(data => data.price);
+}
+
+export function galaToTry() {
+    return fetch('https://api.binance.com/api/v3/ticker/price?symbol=GALATRY')
+        .then(response => response.json())
+        .then(data => data.price);
+}
