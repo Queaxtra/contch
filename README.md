@@ -23,9 +23,14 @@ Real-time currency conversion platform built with SvelteKit, TypeScript, and Tai
 
 Core conversion functionality using multiple APIs:
 
-#### Fiat Currency Conversions (via Frankfurter API)
+#### Currency Conversions (via Frankfurter API)
 - 💵 USD/TRY
 - 💶 EUR/TRY
+- 🇬🇧 GBP/TRY
+- 🇨🇭 CHF/TRY
+- 🇯🇵 JPY/TRY
+- 🇨🇦 CAD/TRY
+- 🇦🇺 AUD/TRY
 
 #### Cryptocurrency Conversions (via Binance API)
 
@@ -40,14 +45,19 @@ Core conversion functionality using multiple APIs:
 - ● DOT/TRY
 - 👻 FTM/TRY
 - 🌌 NEAR/TRY
+- 🌊 SUI/TRY
+- 📚 STX/TRY
 
 **Layer 2 Solutions**
 - ⬡ MATIC/TRY
 - 🔺 AVAX/TRY
+- 🔴 OP/TRY
+- 🔷 ARB/TRY
 
 **Gaming & Metaverse**
 - 🎮 MANA/TRY
 - ⏳ SAND/TRY
+- 🎮 GALA/TRY
 
 **Stablecoins**
 - 💵 USDT/TRY
@@ -58,6 +68,9 @@ Core conversion functionality using multiple APIs:
 - 🦄 UNI/TRY
 - ⚛️ ATOM/TRY
 - 🔷 ALGO/TRY
+- 🐸 PEPE/TRY
+- 🔵 APT/TRY
+- 💉 INJ/TRY
 
 ## 🚀 Getting Started
 
